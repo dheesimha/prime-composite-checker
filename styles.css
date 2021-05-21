@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5abc9;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  outline: none;
+  overflow: hidden;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 130px;
+  margin-bottom: 30px;
+  padding: 12px;
+  color: #574b90;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.heading h2 {
+  color: #590d82;
+  font-weight: 300;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 20%;
+  height: 150px;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  border: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-bottom: 10px solid red;
+  border-radius: 13px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.btn button {
+  width: 13%;
+  font-size: 1.3rem;
+  border: none;
+  color: bisque;
+  background: #005792;
+  transition: background 0.3s;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: #aedefc;
+  color: black;
+}
+
+footer div {
+  display: absolute;
+  bottom: 0;
+  text-align: center;
+  margin-top: 27px;
+}
